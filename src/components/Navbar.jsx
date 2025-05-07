@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
     return ( 
-        <nav>
+        <nav className="bg-black text-white">
             <div>
                 <div>
                     {/* Logo */}
@@ -21,3 +21,5 @@ const Navbar = () => {
         </nav>
     )
 }
+
+export default Navbar;
