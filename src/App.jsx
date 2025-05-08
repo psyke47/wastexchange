@@ -10,14 +10,15 @@ import About from './components/About';
 
 function App() {
   return (
-    <Router>
+    <>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<HeroSection />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
+     
+        <HeroSection />
+       <About />
+      
       <Footer />
-    </Router>
+      </>
+    
   );
 }
 
