@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Branding */}
         <div>
           <div className="flex items-center text-2xl font-bold mb-4">
-            <FaRecycle className="mr-2 text-yellow-700" />
+            <FaRecycle className="mr-2 text-yellow-600" />
             Waste Exchange
           </div>
           <p className="text-sm text-gray-300">
@@ -41,7 +41,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Line */}
-      <div className="text-center text-sm text-gray-300 mt-10 border-t border-yellow-700 pt-4">
+      <div className="text-center text-sm text-gray-300 mt-10 border-t border-yellow-600 pt-4">
         © {new Date().getFullYear()} Waste Exchange. All rights reserved.
       </div>
     </footer>

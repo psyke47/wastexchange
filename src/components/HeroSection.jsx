@@ -16,11 +16,11 @@ const HeroSection = () => {
             Join our sustainable waste exchange platform and turn your waste into a resource. Connect, exchange, and build a greener future today.
           </p>
           <div className="flex gap-4">
-            <button className="bg-yellow-700 text-gray-300 px-6 py-3 rounded-xl hover:bg-gray-700 transition">
+            <button className="bg-yellow-600 text-gray-300 px-6 py-3 rounded-xl hover:bg-gray-700 transition">
               Get Started
             </button>
             <Link to="/about">
-              <button className="border border-yellow-700 text-gray-400 px-6 py-3 rounded-xl hover:bg-gray-700 transition">
+              <button className="border border-yellow-600 text-gray-400 px-6 py-3 rounded-xl hover:bg-gray-700 transition">
                 Learn More
               </button>
             </Link>
