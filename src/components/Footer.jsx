@@ -5,7 +5,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaRecycle } from "react-icons/fa"
 
 const Footer = () => {
   return (
-    <footer className="bg-green-800 text-white py-10 px-6 lg:px-24">
+    <footer className="bg-black text-gray-300 py-10 px-6 lg:px-24">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Branding */}
         <div>
@@ -13,7 +13,7 @@ const Footer = () => {
             <FaRecycle className="mr-2 text-green-300" />
             Waste Exchange
           </div>
-          <p className="text-sm text-green-100">
+          <p className="text-sm text-gray-300">
             Building a sustainable future by connecting waste producers with recyclers and innovators.
           </p>
         </div>
@@ -41,7 +41,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Line */}
-      <div className="text-center text-sm text-green-100 mt-10 border-t border-green-700 pt-4">
+      <div className="text-center text-sm text-gray-300 mt-10 border-t border-yellow-700 pt-4">
         © {new Date().getFullYear()} Waste Exchange. All rights reserved.
       </div>
     </footer>
