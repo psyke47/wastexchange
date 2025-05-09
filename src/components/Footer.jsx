@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Branding */}
         <div>
           <div className="flex items-center text-2xl font-bold mb-4">
-            <FaRecycle className="mr-2 text-green-300" />
+            <FaRecycle className="mr-2 text-yellow-700" />
             Waste Exchange
           </div>
           <p className="text-sm text-gray-300">
