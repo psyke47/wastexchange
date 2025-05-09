@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
-    <section className="bg-green-100 py-16 px-6 lg:px-24 text-gray-800">
+    <section className="bg-gray-900 py-16 px-6 lg:px-24 text-gray-400">
       <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center gap-12">
 
         <div className="flex-1">
@@ -16,11 +16,11 @@ const HeroSection = () => {
             Join our sustainable waste exchange platform and turn your waste into a resource. Connect, exchange, and build a greener future today.
           </p>
           <div className="flex gap-4">
-            <button className="bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-700 transition">
+            <button className="bg-yellow-600 text-gray-300 px-6 py-3 rounded-xl hover:bg-gray-700 transition">
               Get Started
             </button>
             <Link to="/about">
-              <button className="border border-green-600 text-green-600 px-6 py-3 rounded-xl hover:bg-green-50 transition">
+              <button className="border border-yellow-600 text-gray-400 px-6 py-3 rounded-xl hover:bg-gray-700 transition">
                 Learn More
               </button>
             </Link>
@@ -29,7 +29,7 @@ const HeroSection = () => {
 
         <div className="flex-1">
           <img
-            src="/images/recycling.jpg"
+            src="/images/waste.jpg"
             alt="Waste Exchange Illustration"
             className="w-full rounded-xl shadow-lg"
           />
